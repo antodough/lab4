@@ -1,2 +1,21 @@
 set_io clk 35
 set_frequency clk 12
+
+# buttons / switch
+set_io btn_red_n 46
+set_io btn_blue_n 44
+set_io sel_sw_n 42
+
+# 7-segment display
+set_io seg7[6] 31   
+set_io seg7[5] 28
+set_io seg7[4] 26   
+set_io seg7[3] 27   
+set_io seg7[2] 25   
+set_io seg7[1] 23   
+set_io seg7[0] 32
+set_io seg7[7] 34   
+
+# onboard LEDs
+set_io led_r 40
+set_io led_b 39
